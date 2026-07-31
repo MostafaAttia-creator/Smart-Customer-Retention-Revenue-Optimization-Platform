@@ -4,11 +4,11 @@ import joblib
 
 
 model = joblib.load(
-    r"D:\Projects\Smart Customer Retention & Revenue Optimization Platform\models\final_model.pkl"
+    r"models\final_model.pkl"
 )
 
 preprocessor = joblib.load(
-    r"D:\Projects\Smart Customer Retention & Revenue Optimization Platform\models\preprocessor.pkl"
+    r"models\preprocessor.pkl"
 )
 
 
